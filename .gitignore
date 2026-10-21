@@ -1,0 +1,38 @@
+## Build and compilation outputs
+bin/
+obj/
+out/
+[Bb]in/
+[Oo]bj/
+
+## Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+*.ide/
+
+## Environment & Secrets
+appsettings.Development.json
+*.secrets.json
+secrets.json
+.env
+.env.*
+
+## Windows Service / System artifacts
+*.log
+*.tmp
+
+## ReSharper / JetBrains
+_ReSharper*/
+*.DotSettings.user
+
+## OS Generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
